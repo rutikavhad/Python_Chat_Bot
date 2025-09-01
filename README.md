@@ -25,6 +25,6 @@ Built with `socket` and `threading`, this project allows multiple clients to con
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<rutikavhad>/Python_Chat_Bot.git
+git clone https://github.com/rutikavhad/Python_Chat_Bot.git
 cd Python_Chat_Bot.git
 
