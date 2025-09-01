@@ -28,3 +28,26 @@ Built with `socket` and `threading`, this project allows multiple clients to con
 git clone https://github.com/rutikavhad/Python_Chat_Bot.git
 cd Python_Chat_Bot
 
+```
+### 2. How To Run
+-1 : First run this chatserver.py file
+-This is main server of this chat bot 
+```bash
+chatserver.py
+```
+-2.This is client file you can run any client server to connect to server
+-before this must change ip of this code 
+-open client.py in any text editor 
+-_if windows :In Terminal Type *ipconfig* -look for IPv4 Address : look for :client.connect(('..*..',55555))_
+```bash
+ipconfig
+```
+-_if linux/mac :In Terminal Type *ifconfig* - look for  inet     : look for :client.connect(('..*..',55555))_
+```bash
+ifconfig
+```
+
+#After done this all run chatclient.py
+```bash
+chatclient.py
+```
